@@ -665,5 +665,13 @@ module.exports = {
         displayOverflowMenus: true,
       },
     },
+    {
+      name: 'row-header',
+      label: 'Row Header',
+      context: {
+        columns: columnsSmall,
+        rows,
+      },
+    },
   ],
 };
